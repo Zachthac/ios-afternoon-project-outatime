@@ -100,6 +100,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Nyk-ik-NpP"/>
                     </view>
+                    <connections>
+                        <outlet property="destinationTime" destination="14w-5l-aVZ" id="3tq-a2-smE"/>
+                        <outlet property="presentTime" destination="cpr-7k-qZ5" id="f7w-LG-Z7k"/>
+                        <outlet property="setDestinationTime" destination="JbI-qi-tHV" id="VCo-HX-9kK"/>
+                        <outlet property="speed" destination="UUh-Da-Y3O" id="Jbk-k4-OMZ"/>
+                        <outlet property="timeDeparted" destination="rh2-ID-CA7" id="3Be-oa-fge"/>
+                        <outlet property="travelBack" destination="hDb-Ox-mML" id="2UV-a7-ZGm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EEY-Jz-KMF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
